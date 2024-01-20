@@ -1,0 +1,29 @@
+baseURL = "http://localhost:1313/"
+theme = "gohugo-theme-ananke"
+languageCode = 'en-us'
+title = 'Good Guys Racing'
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Roster"
+url = "/roster/"
+weight = 2
+
+[[menu.main]]
+name = "Schedule"
+url = "/schedule/"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 3
+
+[params]
+body_classes = "helvetica bg-near-white"
+customCSS = ["custom.css"]
+mainSections = ['news','Kreatives']

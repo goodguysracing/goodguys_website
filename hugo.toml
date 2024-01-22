@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://goodguysracing.github.io/goodguys_website/"
 theme = "gohugo-theme-ananke"
 languageCode = 'en-us'
 title = 'Good Guys Racing'

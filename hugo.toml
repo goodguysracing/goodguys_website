@@ -14,14 +14,19 @@ url = "/roster/"
 weight = 2
 
 [[menu.main]]
+name = "Partners"
+url = "/partners/"
+weight = 3
+
+[[menu.main]]
 name = "Schedule"
 url = "/schedule/"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Contact"
 url = "/contact/"
-weight = 3
+weight = 5
 
 [params]
 body_classes = "helvetica bg-near-white"

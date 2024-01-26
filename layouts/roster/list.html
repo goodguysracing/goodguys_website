@@ -1,35 +1,9 @@
 {{ define "main" }}
-<style>
-    .roster-gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusts the number of columns based on screen size */
-      padding-top: 100px;
-      gap: 20px;
-      width: 100%; /* Gallery width */
-      margin: auto; /* Center the gallery */
-    }
-    .roster-item {
-      text-align: center;
-    }
-    .roster-item img {
-      max-width: 100%; /* Makes image responsive */
-      height: auto; /* Maintain aspect ratio */
-      border-radius: 10px;
-    }
-    .roster-item h2 {
-      margin-top: 10px;
-    }
-    .roster-item a {
-      color: inherit;
-      text-decoration: none; /* Remove underlines from links */
-    }
-</style>
-
 <div class="roster-gallery">
   {{ range .Pages }}
   <div class="roster-item">
     <a href="{{ .Permalink }}">
-      <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+      <img src="{{ printf "%s%s" .Site.BaseURL (.Params.image | relURL) }}" alt="{{ .Title }}">
       <h2>{{ .Title }}</h2>
     </a>
   </div>

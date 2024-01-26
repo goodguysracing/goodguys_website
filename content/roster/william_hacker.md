@@ -1,4 +1,3 @@
-
 ---
 title: "William Hacker"
 image: "/images/william_hacker_roster.jpg"

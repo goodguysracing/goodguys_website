@@ -5,4 +5,4 @@ draft = false
 featured_image = 'images/cover_1.png'
 +++
 
-Good Guys Racing is an ellte cycling team based in the New York City area.
+Good Guys Racing is an elite cycling team based in the New York City area.

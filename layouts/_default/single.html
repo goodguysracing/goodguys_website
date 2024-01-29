@@ -2,14 +2,6 @@
    {{/* We can override any block in the baseof file be defining it in the template */}}
   {{ partial "page-header.html" . }}
 
-  <!-- Make sure base URL is added to logos -->
-  {{ range .Site.Params.partners }}
-  <a href="{{ .url }}" title="{{ .name }}">
-    <img src="{{ .logo | absURL }}" alt="{{ .name }}" />
-  </a>
-  {{ end }}
-
-
 {{ end }}
 
 {{ define "main" }}

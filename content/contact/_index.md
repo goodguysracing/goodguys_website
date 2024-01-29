@@ -7,4 +7,4 @@ featured_image : 'images/cover_1.png'
 
 # Contact Us
 
-We can make a contact us form if we want this?
+Contact us form to be put here soon.

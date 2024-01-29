@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="partner-gallery">
+  {{ range .Site.Params.partners }}
+  <div class="partner-item">
+    <div class="partner-info">
+      <h2 class="partner-name">{{ .name }}</h2>
+      <p class="partner-description">{{ .description }}</p>
+    </div>
+    <div class="partner-logo-container">
+      <img src="{{ printf "%s%s" $.Site.BaseURL .logo | relURL }}" alt="{{ .name }}" class="partner-logo">
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

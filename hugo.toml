@@ -41,37 +41,44 @@ body_classes = "couture bg-near-white"
 [[params.partners]]
   name = "Assos"
   logo = "/images/logos/assos.png"
+  logo_svg = "/images/logos/assos_svg.png"
   url = "https://www.assos.com/"
   description = "Assos makes the best cycling clothing in the world"
 
 [[params.partners]]
   name = "Cervelo"
   logo = "/images/logos/cervelo.png"
+  logo_svg = "/images/logos/cervelo.svg"
   url = "https://www.cervelo.com/"
   description = "Cervelo is a leading bike manufacturer."
 
 [[params.partners]]
   name = "oakley"
   logo = "/images/logos/oakley.png"
+  logo_svg = "/images/logos/oakley.svg"
   url = "https://www.oakley.com/"
   description = "Oakley provides high-quality sports eyewear."
 
 [[params.partners]]
   name = "strictly"
   logo = "/images/logos/strictly.png"
+  logo_svg = "/images/logos/strictly_no_back.jpg"
   url = "https://www.strictlybicycles.com/"
 
 [[params.partners]]
   name = "vintus"
   logo = "/images/logos/vintus.png"
+  logo_svg = "/images/logos/vintus.jpg"
   url = "https://www.vintus.com/"
 
 [[params.partners]]
   name = "undrbudr"
   logo = "/images/logos/undrbudr.png"
+  logo_svg = "/images/logos/undrbudr.png"
   url = "https://www.undrbudr.com/"
 
   [[params.partners]]
   name = "strategio"
   logo = "/images/logos/strategio.jpg"
+  logo_svg = "/images/logos/strategio.jpg"
   url = "https://www.strategio.tech"

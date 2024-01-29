@@ -43,7 +43,7 @@
     max-height: 200px;  /* Set a maximum height */
     width: auto;        /* Allow the width to adjust automatically */
     height: auto;       /* Allow the height to adjust automatically */
-    margin: 0 10px;     /* Add some space around the logos */
+    margin: 0 20px;     /* Add some space around the logos */
   }
 
   .partner-logos {
@@ -53,12 +53,24 @@
     /* Add other styles as needed */
   }
 
-  .partner-gallery {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px; /* Add padding to the top */
+  .partner-logo-main {
+    max-width: 100%;
+    height: auto;
+    padding: 10px; /* Adjust padding as necessary */
   }
+
+  .partner-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+    gap: 20px; /* Space between logos */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+  }
+  
   
   .partner-item {
     margin-bottom: 20px;

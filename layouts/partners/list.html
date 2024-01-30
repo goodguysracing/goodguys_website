@@ -3,7 +3,7 @@
   {{ range $.Site.Params.partners }}
   <div class="partner-item">
     <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-      <img src="{{ $.Site.BaseURL }}{{ .logo_svg }}" alt="{{ .name }}" class="partner-logo-main">
+      <img src="{{ $.Site.BaseURL }}{{ .logo_main }}" alt="{{ .name }}" class="partner-logo-main">
     </a>
   </div>
   {{ end }}

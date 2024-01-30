@@ -3,4 +3,11 @@ title: "Cormac Daly"
 image: "/images/cormac_daly_roster.png"
 ---
 
-Cormac rides his bike, he mostly specializes in winning Central Park races. He is really hard to spot since he's always wearing his NY state champ jersey.
+Irish \
+March 17th, 1996 \
+Favourite US Race - Bear Mountain Classic \
+Favorite Pro Race: Paris Roubaix \
+Rider Type: Puncheur \
+Favourite Ride: Ring of Kerry, Ireland & Mont Pelerin, Switzerland \
+IG: @cormacdaly
+

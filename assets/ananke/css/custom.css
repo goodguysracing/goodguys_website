@@ -1,3 +1,47 @@
+/* Ensure header background images are responsive */
+.responsive-header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative; /* Ensure the dimming overlay is positioned correctly */
+  overflow: hidden; /* Prevent any overflow from the header */
+}
+
+/* Dimming overlay */
+.header-overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust opacity as needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* For large screens */
+@media (min-width: 768px) {
+  .responsive-header {
+    height: 400px; /* Adjust height as needed */
+  }
+}
+
+/* For small screens */
+@media (max-width: 767px) {
+  .responsive-header {
+    height: 200px; /* Adjust height as needed */
+  }
+}
+
+/* General styles */
+img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+
 .roster-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusts the number of columns based on screen size */

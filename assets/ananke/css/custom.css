@@ -1,3 +1,8 @@
+/* override the default styles here from */
+main.pb7 {
+  padding-bottom: 4rem !important; /* Removes the padding */
+}
+
 /* Ensure header background images are responsive */
 .responsive-header {
   background-size: cover;
@@ -102,6 +107,66 @@ img {
     height: auto;
     padding: 10px; /* Adjust padding as necessary */
   }
+
+  .partner-logos {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: center; /* Center the logos */
+    gap: 1rem; /* Add spacing between logos */
+  }
+  
+  .partner-logo {
+    max-width: 100px; /* Limit the size of the logos */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  @media (max-width: 768px) {
+    .partner-logos {
+      justify-content: space-evenly; /* Distribute evenly for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .partner-logos {
+      flex-direction: row;
+      justify-content: center;
+      gap: 0.5rem; /* Reduce spacing for smaller screens */
+    }
+  
+    .partner-logo {
+      max-width: 80px; /* Scale down logos */
+    }
+  }
+  .partner-logos {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: center; /* Center the logos */
+    gap: 1rem; /* Add spacing between logos */
+  }
+  
+  .partner-logo {
+    max-width: 100px; /* Limit the size of the logos */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  @media (max-width: 768px) {
+    .partner-logos {
+      justify-content: space-evenly; /* Distribute evenly for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .partner-logos {
+      flex-direction: row;
+      justify-content: center;
+      gap: 0.5rem; /* Reduce spacing for smaller screens */
+    }
+  
+    .partner-logo {
+      max-width: 80px; /* Scale down logos */
+    }
+  }
+    
 
   .partner-gallery {
     display: grid;

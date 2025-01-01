@@ -23,11 +23,6 @@ name = "Mission"
 url = "/mission/"
 weight = 4
 
-[[menu.main]]
-name = "Contact"
-url = "/contact/"
-weight = 5
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -39,15 +34,8 @@ mainSections = ['news','Kreatives']
 body_classes = "couture bg-near-white"
 
 [[params.ananke_socials]]
-name = "instagram"
-url = "https://www.instagram.com/goodguysnyc"
-
-[[params.partners]]
-  name = "Assos"
-  logo_footer = "/images/logos/assos.png"
-  logo_main = "/images/logos/assos_svg.png"
-  url = "https://www.assos.com/"
-  description = "Assos makes the best cycling clothing in the world"
+  name = "instagram"
+  url = "https://www.instagram.com/goodguysnyc"
 
 [[params.partners]]
   name = "Cervelo"
@@ -55,6 +43,13 @@ url = "https://www.instagram.com/goodguysnyc"
   logo_main = "/images/logos/cervelo.svg"
   url = "https://www.cervelo.com/"
   description = "Cervelo is a leading bike manufacturer."
+
+[[params.partners]]
+  name = "Q365"
+  logo_footer = "/images/logos/q365_footer.png"
+  logo_main = "/images/logos/q365.svg"
+  url = "https://www.q36-5.com/"
+  description = "Q36.5 makes our technical cycling clothing"
 
 [[params.partners]]
   name = "oakley"
@@ -70,6 +65,18 @@ url = "https://www.instagram.com/goodguysnyc"
   url = "https://www.strictlybicycles.com/"
 
 [[params.partners]]
+  name = "strategio"
+  logo_footer = "/images/logos/strategio_transparent.png"
+  logo_main = "/images/logos/strategio_main.png"
+  url = "https://www.strategio.tech"
+
+[[params.partners]]
+  name = "continental"
+  logo_footer = "/images/logos/conti_white.png"
+  logo_main = "/images/logos/conti_black.png"
+  url = "https://www.continental.com"
+
+[[params.partners]]
   name = "vintus"
   logo_footer = "/images/logos/vintus.png"
   logo_main = "/images/logos/vintus_transparent.png"
@@ -81,13 +88,7 @@ url = "https://www.instagram.com/goodguysnyc"
   logo_main = "/images/logos/undrbudr_transparent.png"
   url = "https://www.undrbudr.com/"
 
-  [[params.partners]]
-  name = "strategio"
-  logo_footer = "/images/logos/strategio_transparent.png"
-  logo_main = "/images/logos/strategio_main.png"
-  url = "https://www.strategio.tech"
-
-  [[params.partners]]
+[[params.partners]]
   name = "jtrain"
   logo_footer = "/images/logos/jtrain_white_transparent.png"
   logo_main = "/images/logos/jtrain_black_transparent.png"

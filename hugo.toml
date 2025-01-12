@@ -45,11 +45,10 @@ body_classes = "couture bg-near-white"
   description = "Cervelo is a leading bike manufacturer."
 
 [[params.partners]]
-  name = "Q365"
-  logo_footer = "/images/logos/q365_footer.png"
-  logo_main = "/images/logos/q365.svg"
-  url = "https://www.q36-5.com/"
-  description = "Q36.5 makes our technical cycling clothing"
+  name = "reserve"
+  logo_footer = "/images/logos/reserve_white.png"
+  logo_main = "/images/logos/reserve.png"
+  url = "https://reservewheels.com/"
 
 [[params.partners]]
   name = "oakley"
@@ -59,16 +58,23 @@ body_classes = "couture bg-near-white"
   description = "Oakley provides high-quality sports eyewear."
 
 [[params.partners]]
+  name = "Q365"
+  logo_footer = "/images/logos/q365_footer.png"
+  logo_main = "/images/logos/q365.svg"
+  url = "https://www.q36-5.com/"
+  description = "Q36.5 makes our technical cycling clothing"
+
+[[params.partners]]
   name = "strictly"
   logo_footer = "/images/logos/strictly_white_transparent.png"
   logo_main = "/images/logos/strictly_main.png"
   url = "https://www.strictlybicycles.com/"
 
-[[params.partners]]
-  name = "strategio"
-  logo_footer = "/images/logos/strategio_transparent.png"
-  logo_main = "/images/logos/strategio_main.png"
-  url = "https://www.strategio.tech"
+# [[params.partners]]
+#   name = "strategio"
+#   logo_footer = "/images/logos/strategio_transparent.png"
+#   logo_main = "/images/logos/strategio_main.png"
+#   url = "https://www.strategio.tech"
 
 [[params.partners]]
   name = "continental"
@@ -93,3 +99,9 @@ body_classes = "couture bg-near-white"
   logo_footer = "/images/logos/jtrain_white_transparent.png"
   logo_main = "/images/logos/jtrain_black_transparent.png"
   url = "https://jtrainwellness.com"
+
+[[params.partners]]
+  name = "exceptional_villas"
+  logo_footer = "/images/logos/exceptional_villas_transparent.png"
+  logo_main = "/images/logos/exceptional_villas_transparent.png"
+  url = "https://www.exceptionalvillas.com"

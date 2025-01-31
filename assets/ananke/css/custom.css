@@ -2,20 +2,23 @@
 main.pb7 {
   padding-bottom: 4rem !important; /* Removes the padding */
 }
-
 /* Ensure header background images are responsive */
 .responsive-header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  position: relative; /* Ensure the dimming overlay is positioned correctly */
+  position: relative;
   overflow: hidden; /* Prevent any overflow from the header */
+  height: 400px; /* Set the default height of the header */
+  display: flex; /* Center content horizontally and vertically */
+  justify-content: center;
+  align-items: center;
 }
 
-/* Dimming overlay */
+/* Dimming overlay for the header */
 .header-overlay {
-  background-color: rgba(0, 0, 0, 0.6); /* Adjust opacity as needed */
+  background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent overlay */
   position: absolute;
   top: 0;
   left: 0;
@@ -23,21 +26,39 @@ main.pb7 {
   bottom: 0;
   width: 100%;
   height: 100%;
+  z-index: 1; /* Ensure it appears below the image */
 }
 
-/* For large screens */
-@media (min-width: 768px) {
-  .responsive-header {
-    height: 400px; /* Adjust height as needed */
-  }
+/* Logo container for scaling */
+.logo-container {
+  position: relative;
+  width: auto; /* Allow width to adjust dynamically */
+  height: 100%; /* Scale the logo height relative to the header */
+  z-index: 2; /* Ensure it appears above the overlay */
+  display: flex; /* Ensure the image stays centered */
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Remove any padding */
+  margin: 0; /* Remove any margin */
 }
 
-/* For small screens */
+.logo-container img {
+  height: 100%; /* Scale the image height relative to the header */
+  width: auto; /* Maintain the aspect ratio */
+  object-fit: contain; /* Ensure the image fits within the container */
+}
+
+/* Responsive adjustments */
 @media (max-width: 767px) {
   .responsive-header {
-    height: 200px; /* Adjust height as needed */
+    height: 250px; /* Reduce header height on smaller screens */
+  }
+
+  .logo-container img {
+    height: 100%; /* Keep the logo scaling with the header */
   }
 }
+
 
 /* General styles */
 img {

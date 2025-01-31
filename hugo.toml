@@ -32,6 +32,7 @@ weight = 4
 custom_css  = ["custom.css"]
 mainSections = ['news','Kreatives']
 body_classes = "couture bg-near-white"
+logo_header = "/images/logos/good_guys.jpg"
 
 [[params.ananke_socials]]
   name = "instagram"

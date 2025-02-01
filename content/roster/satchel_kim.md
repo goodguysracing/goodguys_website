@@ -1,6 +1,6 @@
 ---
 title: "Satchel Kim"
-image: "/images/satchel_kim_roster.jpg"
+image: "/images/satchel_kim_roster.png"
 ---
 
 American

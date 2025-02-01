@@ -71,6 +71,13 @@ logo_header = "/images/logos/good_guys.jpg"
   logo_main = "/images/logos/strictly_main.png"
   url = "https://www.strictlybicycles.com/"
 
+[[params.partners]]
+  name = "Carbs Fuels"
+  logo_footer = "/images/logos/carbs_fuel.png"
+  logo_main = "/images/logos/carbs_fuel.png"
+  url = "https://www.carbsfuel.com/"
+  description = "Carbs Fuel makes sport nuttition with lots of carbs."
+
 # [[params.partners]]
 #   name = "strategio"
 #   logo_footer = "/images/logos/strategio_transparent.png"
@@ -100,6 +107,13 @@ logo_header = "/images/logos/good_guys.jpg"
   logo_footer = "/images/logos/jtrain_white_transparent.png"
   logo_main = "/images/logos/jtrain_black_transparent.png"
   url = "https://jtrainwellness.com"
+
+[[params.partners]]
+  name = "Chris King"
+  logo_footer = "/images/logos/chris_king_white.png"
+  logo_main = "/images/logos/chris_king_black.png"
+  url = "https://chrisking.com/"
+  description = "Legendary maker or high end bike components"
 
 [[params.partners]]
   name = "exceptional_villas"

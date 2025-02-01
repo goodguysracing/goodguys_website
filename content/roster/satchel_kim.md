@@ -1,12 +1,12 @@
 ---
 title: "Satchel Kim"
-image: "/images/patton_sims_roster.jpg"
+image: "/images/satchel_kim_roster.jpg"
 ---
 
-American \
-DOB \
-Favourite US Race -  \
-Favorite Pro Race: \
-Rider Type: Skinny Boi \
-Favourite Ride:  \
-IG: @something or other
+American
+May 23, 2003
+Favourite US Race - Bucks County Classic
+Favorite Pro Race: Tour De France
+Rider Type: Shit weather specialist 
+Favourite Ride: Santa Monica Mountains
+IG: @satchelkim

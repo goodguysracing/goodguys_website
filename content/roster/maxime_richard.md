@@ -1,12 +1,12 @@
 ---
 title: "Maxime Richard"
-image: "/images/patton_sims_roster.jpg"
+image: "/images/maxime_richard_roster.jpg"
 ---
 
-American \
-DOB \
-Favourite US Race -  \
-Favorite Pro Race: \
-Rider Type: Skinny Boi \
-Favourite Ride:  \
-IG: @something or other
+French / Swiss
+May 4th 2000
+Favorite race : Giro Ciclistico Valle d'Aosta (don't have US Favorite Race so far)
+Favorite pro race : I'd say Tour de France
+Rider type: Climber
+Favorite ride: Cormet d'Arêches - French Alps
+IG: r_m.ax

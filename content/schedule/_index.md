@@ -63,7 +63,7 @@ draft = false
     <tr>
       <td>Central Park Spring Classic</td>
       <td>Manhattan</td>
-      <td>02/08/25- </td>
+      <td>02/08/25 </td>
     </tr>
     <tr>
       <td>Valley Of The Sun Stage Race</td>

@@ -1,6 +1,6 @@
 ---
 title: "James Hilyer"
-image: "/images/patton_sims_roster.jpg"
+image: "/images/james_hilyer_roster.jpg"
 ---
 
 American \

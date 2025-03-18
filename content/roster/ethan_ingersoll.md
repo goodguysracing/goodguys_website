@@ -1,6 +1,6 @@
 ---
 title: "Ethan Ingersoll"
-image: "/images/patton_sims_roster.jpg"
+image: "/images/ethan_ingersoll_roster.jpg"
 ---
 
 American \

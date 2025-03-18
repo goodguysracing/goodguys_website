@@ -1,6 +1,6 @@
 ---
-title: "Fred Boehner"
-image: "/images/fred_boehner_roster.png"
+title: "Fred Boehrer"
+image: "/images/fred_boehrer_roster.jpg"
 ---
 
 American Thoroughbred \

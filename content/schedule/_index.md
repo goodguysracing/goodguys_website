@@ -61,105 +61,110 @@ draft = false
   </thead>
   <tbody>
     <tr>
-      <td>Team Training Camp</td>
-      <td>North Carolina, USA</td>
-      <td>Mar 22-30, 2024</td>
+      <td>Central Park Spring Classic</td>
+      <td>Manhattan</td>
+      <td>02/08/25- </td>
+    </tr>
+    <tr>
+      <td>Valley Of The Sun Stage Race</td>
+      <td>Phoenix, AZ</td>
+      <td>02/14/25-02/16/25</td>
+    </tr>
+    <tr>
+      <td>Tucson Bicycle Classic</td>
+      <td>Tuscon,AZ</td>
+      <td>02/21/25-2/23/25</td>
+    </tr>
+    <tr>
+      <td>GGR Ride with Nibali & Q36.5</td>
+      <td>New York</td>
+      <td>03/16/25</td>
+    </tr>
+    <tr>
+      <td>Buzz the Tower</td>
+      <td>Charelstown, RI</td>
+      <td>03/29/25</td>
+    </tr>
+    <tr>
+      <td>Cherry Blossom Challenge</td>
+      <td>Branchbrook Park</td>
+      <td>04/05/25</td>
+    </tr>
+    <tr>
+      <td>Red Bull Roundabout Rumble</td>
+      <td>Inianapolis</td>
+      <td>04/05/25</td>
     </tr>
     <tr>
       <td>Redlands Bicycle Classic</td>
-      <td>Redlands, CA, USA</td>
-      <td>Apr 10-14, 2024</td>
+      <td>Redlands, CA</td>
+      <td>04/09/25-04/13/25</td>
     </tr>
     <tr>
-      <td>Mengoni Gran Prix</td>
-      <td>New York, NY USA</td>
-      <td>Apr 14, 2024</td>
+      <td>Tour of the Battenkill</td>
+      <td>Battenkill, NY</td>
+      <td>05/10/25</td>
     </tr>
     <tr>
-      <td>Spartanburg Criterium</td>
-      <td>South Carolina, USA</td>
-      <td>Apr 26, 2024</td>
-    </tr>
-    <tr>
-      <td>Athens Twilight Criterium</td>
-      <td>Georgia, USA</td>
-      <td>Apr 27, 2024</td>
-    </tr>
-    <tr>
-      <td>Bear Mountain Classic</td>
-      <td>Harriman State Park, NY, USA</td>
-      <td>May 4, 2024</td>
-    </tr>
-    <tr>
-      <td>Wilmington Grand Prix</td>
-      <td>Delaware, USA</td>
-      <td>May 18, 2024</td>
+      <td>Wilmington GP</td>
+      <td>Wilmington, DE</td>
+      <td>05/17/25</td>
     </tr>
     <tr>
       <td>Ras Tailteann</td>
       <td>Ireland</td>
-      <td>May 22-26, 2024</td>
-    </tr>
-    <tr>
-      <td>Dave Jordan Open</td>
-      <td>New York, NY USA</td>
-      <td>Jun 1, 2024</td>
+      <td>05/20/25</td>
     </tr>
     <tr>
       <td>Armed Forces Classic</td>
-      <td>Arlington, VA, USA</td>
-      <td>Jun 1-2, 2024</td>
+      <td>Arlington, VA</td>
+      <td>05/31/25</td>
+    </tr>
+    </tr>
+      <td>Harlem Skyscraper Criterium</td>
+      <td>Harlemm NY</td>
+      <td>06/15/25</td>
+    </tr>
+    </tr>
+      <td>CRCA Grant's Tomb Criterium</td>
+      <td>New York City</td>
+      <td>06/21/25</td>
+    </tr>
+    </tr>
+      <td>Capital Region Road Race</td>
+      <td>Albany, NY</td>
+      <td>06/29/25</td>
+    </tr>
+    </tr>
+      <td>ChicagoGrit 10 day</td>
+      <td>Chicago</td>
+      <td>07/18/25</td>
     </tr>
     <tr>
-      <td>Historic Riverton Criterium</td>
-      <td>Riverton, NJ , USA</td>
-      <td>Jun 9, 2024</td>
+      <td>2 Days of Buffalo</td>
+      <td>Buffalo, NY</td>
+      <td>08/02/25</td>
     </tr>
     <tr>
-      <td>Father's Day Skyscraper Harlem Criterium</td>
-      <td>Harlem, NY, USA</td>
-      <td>Jun 16, 2024</td>
-    </tr>
-        <tr>
-      <td>CRCA Grant's Tomb Criterium </td>
-      <td>New York City, NY, USA</td>
-      <td>Jun 22, 2024</td>
-    </tr>
-        <tr>
-      <td>Salt Lake City Criterium</td>
-      <td>Salt Lake City, UT, USA</td>
-      <td>Jul 6-7, 2024</td>
-    </tr>
-        <tr>
-      <td>Intelligentsia Cup</td>
-      <td>Chicago, IL, USA</td>
-      <td>Jul 21-30, 2024</td>
-    </tr>
-        <tr>
-      <td>Lucarelli & Castelli Central Park Classic </td>
-      <td>New York City, NY, USA</td>
-      <td>Jul 7, 2024</td>
-    </tr>
-        <tr>
-      <td>Plan2Peak Two Days of Buffalo</td>
-      <td>Buffalo, NY, USA</td>
-      <td>Aug 3-4, 2024</td>
-    </tr>
-        <tr>
-      <td>NYSBRA State Time Trial Championships</td>
-      <td>Jay, NY, USA</td>
-      <td>Aug 18, 2024</td>
-    </tr>
-        <tr>
-      <td>Green Mountain Stage Race</td>
-      <td>Warren, VT, USA</td>
-      <td>Aug 30, 2024</td>
+      <td>Green Mountain Stage Race (GMSR)</td>
+      <td>Warren, VT</td>
+      <td>08/29/25-09/01/25</td>
     </tr>
     <tr>
       <td>Bucks County Classic</td>
-      <td>PA, USA</td>
-      <td>Sep 8 2024</td>
+      <td>Doylestown, PA</td>
+      <td>09/07/25</td>
     </tr>
+    <tr>
+      <td>New Haven GP</td>
+      <td>New Haven, CT</td>
+      <td>09/12/25</td>
+    </tr>
+    <tr>
+      <td>Kissena Fall Classic (Brooklyn)</td>
+      <td>Prospect Park</td>
+      <td>10/04/25</td>
   </tbody>
 </table>
+
 

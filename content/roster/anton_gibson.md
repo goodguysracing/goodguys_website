@@ -1,6 +1,6 @@
 ---
 title: "Anton Gibson"
-image: "/images/patton_sims_roster.jpg"
+image: "/images/anton_gibson_roster.jpg"
 ---
 
 American \

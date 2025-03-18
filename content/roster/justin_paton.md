@@ -1,6 +1,6 @@
 ---
 title: "Justin Paton"
-image: "/images/patton_sims_roster.jpg"
+image: "/images/justin_paton_roster.jpeg"
 ---
 
 American \

@@ -1,12 +1,12 @@
 ---
 title: "Tyler Sullivan"
-image: "/images/patton_sims_roster.jpg"
+image: "/images/tyler_sullivan_roster.jpg"
 ---
 
-American \
-DOB \
-Favourite US Race -  \
-Favorite Pro Race: \
-Rider Type: Big Unit \
-Favourite Ride:  \
-IG: @something or other
+American
+DOB: March 20th, 1996
+Favorite US Race: Bear Mountain Classic
+Favorite Pro Race: Milan San Remo
+Rider Type: Big Unit, All-Rounder
+Favorite Ride: Central Park mornings or KY horse farm country
+IG: t_sullly

@@ -1,12 +1,14 @@
 {{ define "main" }}
 <div class="roster-gallery">
   {{ range .Pages }}
+  {{ if not (in .File.Path "old_riders") }}
   <div class="roster-item">
     <a href="{{ .Permalink }}">
       <img src="{{ printf "%s%s" .Site.BaseURL (.Params.image | relURL) }}" alt="{{ .Title }}">
       <h2>{{ .Title }}</h2>
     </a>
   </div>
+  {{ end }}
   {{ end }}
 </div>
 {{ end }}

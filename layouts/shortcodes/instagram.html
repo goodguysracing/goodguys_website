@@ -1,0 +1,9 @@
+{{/* Instagram embed shortcode. Usage: {{< instagram "https://www.instagram.com/p/ABC123/" >}} or .../reel/ABC123/ */}}
+{{ $url := .Get 0 }}
+{{ $isPlaceholder := or (not $url) (findRE "REPLACE|placeholder|EXAMPLE" $url) }}
+{{ if and $url (not $isPlaceholder) }}
+<div class="instagram-feed__item">
+<blockquote class="instagram-media" data-instgrm-permalink="{{ $url }}" data-instgrm-version="14" style="max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote>
+<script async src="https://www.instagram.com/embed.js"></script>
+</div>
+{{ end }}

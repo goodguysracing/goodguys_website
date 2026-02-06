@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Good Guys Racing</title>
+    <link>http://localhost:1313/goodguys_website/posts/</link>
+    <description>Recent content in Posts on Good Guys Racing</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Jan 2024 11:31:08 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/goodguys_website/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/goodguys_website/posts/my-first-post/</link>
+      <pubDate>Fri, 12 Jan 2024 11:31:08 +0000</pubDate>
+      <guid>http://localhost:1313/goodguys_website/posts/my-first-post/</guid>
+      <description>&lt;p&gt;This is a test post to test if the Good Guys website is working &amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

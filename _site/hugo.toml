@@ -1,0 +1,116 @@
+baseURL = "https://goodguysracing.github.io/goodguys_website/"
+theme = "gohugo-theme-ananke"
+languageCode = 'en-us'
+title = 'Good Guys Racing'
+
+[[menu.main]]
+name = "Roster"
+url = "/roster/"
+weight = 1
+
+[[menu.main]]
+name = "Partners"
+url = "/partners/"
+weight = 2
+
+[[menu.main]]
+name = "Schedule"
+url = "/schedule/"
+weight = 3
+
+[[menu.main]]
+name = "Mission"
+url = "/mission/"
+weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+custom_css  = ["custom.css"]
+mainSections = ['news','Kreatives']
+body_classes = "couture bg-near-white"
+logo_header = "/images/logos/good_guys.jpg"
+
+[[params.ananke_socials]]
+  name = "instagram"
+  url = "https://www.instagram.com/goodguysnyc"
+
+[[params.partners]]
+  name = "oakley"
+  logo_footer = "/images/logos/oakley.png"
+  logo_main = "/images/logos/oakley.svg"
+  url = "https://www.oakley.com/"
+  description = "Oakley provides high-quality sports eyewear."
+
+[[params.partners]]
+  name = "Q365"
+  logo_footer = "/images/logos/q365_footer.png"
+  logo_main = "/images/logos/q365.svg"
+  url = "https://www.q36-5.com/"
+  description = "Q36.5 makes our technical cycling clothing"
+
+[[params.partners]]
+  name = "strictly"
+  logo_footer = "/images/logos/strictly_white_transparent.png"
+  logo_main = "/images/logos/strictly_main.png"
+  url = "https://www.strictlybicycles.com/"
+
+# [[params.partners]]
+#   name = "strategio"
+#   logo_footer = "/images/logos/strategio_transparent.png"
+#   logo_main = "/images/logos/strategio_main.png"
+#   url = "https://www.strategio.tech"
+
+[[params.partners]]
+  name = "continental"
+  logo_footer = "/images/logos/conti_white.png"
+  logo_main = "/images/logos/conti_black.png"
+  url = "https://www.continental.com"
+
+[[params.partners]]
+  name = "vintus"
+  logo_footer = "/images/logos/vintus.png"
+  logo_main = "/images/logos/vintus_transparent.png"
+  url = "https://www.vintus.com/"
+
+[[params.partners]]
+  name = "undrbudr"
+  logo_footer = "/images/logos/undrbudr_white_transparent.png"
+  logo_main = "/images/logos/undrbudr_transparent.png"
+  url = "https://www.undrbudr.com/"
+
+[[params.partners]]
+  name = "jtrain"
+  logo_footer = "/images/logos/jtrain_white_transparent.png"
+  logo_main = "/images/logos/jtrain_black_transparent.png"
+  url = "https://jtrainwellness.com"
+
+[[params.partners]]
+  name = "Pinarello"
+  logo_footer = "/images/logos/pinarello_white.svg"
+  logo_main = "/images/logos/pinarello_black.svg"
+  url = "https://www.pinarello.com/"
+  description = "Pinarello bicycles"
+
+[[params.partners]]
+  name = "Electrolit"
+  logo_footer = "/images/logos/electrolit_white.svg"
+  logo_main = "/images/logos/electrolit_black.svg"
+  url = "https://electrolit.com/"
+  description = "Electrolit hydration"
+
+[[params.partners]]
+  name = "Kaex"
+  logo_footer = "/images/logos/kaex_white.webp"
+  logo_main = "/images/logos/kaex_black.png"
+  url = "https://www.kaex.com/"
+  description = "Kaex"
+
+[[params.partners]]
+  name = "exceptional_villas"
+  logo_footer = "/images/logos/exceptional_villas_transparent.png"
+  logo_main = "/images/logos/exceptional_villas_transparent.png"
+  url = "https://www.exceptionalvillas.com"

@@ -1,0 +1,279 @@
+/* override the default styles here from */
+main.pb7 {
+  padding-bottom: 4rem !important; /* Removes the padding */
+}
+/* Ensure header background images are responsive */
+.responsive-header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  overflow: hidden; /* Prevent any overflow from the header */
+  height: 400px; /* Set the default height of the header */
+  display: flex; /* Center content horizontally and vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dimming overlay for the header */
+.header-overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Ensure it appears below the image */
+}
+
+/* Logo container for scaling */
+.logo-container {
+  position: relative;
+  width: auto; /* Allow width to adjust dynamically */
+  height: 100%; /* Scale the logo height relative to the header */
+  z-index: 2; /* Ensure it appears above the overlay */
+  display: flex; /* Ensure the image stays centered */
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Remove any padding */
+  margin: 0; /* Remove any margin */
+}
+
+.logo-container img {
+  height: 100%; /* Scale the image height relative to the header */
+  width: auto; /* Maintain the aspect ratio */
+  object-fit: contain; /* Ensure the image fits within the container */
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .responsive-header {
+    height: 250px; /* Reduce header height on smaller screens */
+  }
+
+  .logo-container img {
+    height: 100%; /* Keep the logo scaling with the header */
+  }
+}
+
+
+/* General styles */
+img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+
+.roster-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusts the number of columns based on screen size */
+    padding-top: 100px;
+    gap: 20px;
+    width: 100%; /* Gallery width */
+    margin: auto; /* Center the gallery */
+  }
+  .roster-item {
+    text-align: center;
+  }
+  .roster-item img {
+    max-width: 100%; /* Makes image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    object-fit: contain; /* Scale images while maintaining aspect ratio */
+    max-height: 300px; /* Limit maximum height to 300px (adjust as needed) */
+  }
+  .roster-item h2 {
+    margin-top: 10px;
+  }
+  .roster-item a {
+    color: inherit;
+    text-decoration: none; /* Remove underlines from links */
+  }
+
+  @font-face {
+    font-family: 'Couture';
+    src: url('../../fonts/couture-bld.otf') format('opentype');
+    /* You may need to adjust the path to your font file */
+  }
+  
+  body {
+    font-family: 'Couture', sans-serif !important;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Couture', sans-serif !important;
+  }
+
+  .partner-logo {
+    max-width: 200px;   /* Set a maximum width */
+    max-height: 200px;  /* Set a maximum height */
+    width: auto;        /* Allow the width to adjust automatically */
+    height: auto;       /* Allow the height to adjust automatically */
+    margin: 0 20px;     /* Add some space around the logos */
+  }
+
+  .partner-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Add other styles as needed */
+  }
+
+  .partner-logo-main {
+    max-width: 100%;
+    height: auto;
+    padding: 10px; /* Adjust padding as necessary */
+  }
+
+  .partner-logos {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: center; /* Center the logos */
+    gap: 1rem; /* Add spacing between logos */
+  }
+  
+  .partner-logo {
+    max-width: 100px; /* Limit the size of the logos */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  @media (max-width: 768px) {
+    .partner-logos {
+      justify-content: space-evenly; /* Distribute evenly for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .partner-logos {
+      flex-direction: row;
+      justify-content: center;
+      gap: 0.5rem; /* Reduce spacing for smaller screens */
+    }
+  
+    .partner-logo {
+      max-width: 80px; /* Scale down logos */
+    }
+  }
+  .partner-logos {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: center; /* Center the logos */
+    gap: 1rem; /* Add spacing between logos */
+  }
+  
+  .partner-logo {
+    max-width: 100px; /* Limit the size of the logos */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  @media (max-width: 768px) {
+    .partner-logos {
+      justify-content: space-evenly; /* Distribute evenly for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .partner-logos {
+      flex-direction: row;
+      justify-content: center;
+      gap: 0.5rem; /* Reduce spacing for smaller screens */
+    }
+  
+    .partner-logo {
+      max-width: 80px; /* Scale down logos */
+    }
+  }
+    
+
+  .partner-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+    gap: 20px; /* Space between logos */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+  }
+  
+  
+  .partner-item {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%; /* Ensure each partner item takes full width */
+  }
+  
+  .partner-info {
+    text-align: left;
+  }
+  
+  .partner-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 10px; /* Add spacing between title and description */
+  }
+  
+  .partner-description {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .partner-logo-container {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .partner-logo {
+      max-width: 100px; /* Smaller logos on mobile */
+      max-height: 100px; /* Adjust height accordingly */
+      margin: 10px; /* Reduce margin */
+    }
+  
+    .partner-logos {
+      flex-direction: column; /* Stack logos vertically on small screens */
+      align-items: center;
+    }
+  
+    .partner-gallery,
+    .roster-gallery {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjust grid for smaller screens */
+    }
+  
+    .partner-item,
+    .partner-logo-container {
+      flex-direction: column; /* Stack logo and info vertically in partner items */
+      width: auto; /* Allow width to adjust to content */
+      height: auto; /* Allow height to adjust to content */
+      margin-left: 0; /* Adjust margins for mobile */
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .partner-info,
+    .partner-name,
+    .partner-description {
+      text-align: center; /* Center text for mobile */
+      margin: 10px 0; /* Add some spacing */
+    }
+  }
+  
+  
+  
+  
+  

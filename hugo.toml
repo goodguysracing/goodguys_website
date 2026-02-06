@@ -23,6 +23,11 @@ name = "Mission"
 url = "/mission/"
 weight = 4
 
+[[menu.main]]
+name = "Media"
+url = "/media/"
+weight = 5
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -32,24 +37,12 @@ weight = 4
 custom_css  = ["custom.css"]
 mainSections = ['news','Kreatives']
 body_classes = "couture bg-near-white"
-logo_header = "/images/logos/good_guys.jpg"
+logo_header = "/images/logos/good_guys_racing.png"
+logo_nav = "/images/logos/good_guys_ggr.png"
 
 [[params.ananke_socials]]
   name = "instagram"
   url = "https://www.instagram.com/goodguysnyc"
-
-[[params.partners]]
-  name = "Cervelo"
-  logo_footer = "/images/logos/cervelo.png"
-  logo_main = "/images/logos/cervelo.svg"
-  url = "https://www.cervelo.com/"
-  description = "Cervelo is a leading bike manufacturer."
-
-[[params.partners]]
-  name = "reserve"
-  logo_footer = "/images/logos/reserve_white.png"
-  logo_main = "/images/logos/reserve.png"
-  url = "https://reservewheels.com/"
 
 [[params.partners]]
   name = "oakley"
@@ -70,13 +63,6 @@ logo_header = "/images/logos/good_guys.jpg"
   logo_footer = "/images/logos/strictly_white_transparent.png"
   logo_main = "/images/logos/strictly_main.png"
   url = "https://www.strictlybicycles.com/"
-
-[[params.partners]]
-  name = "Carbs Fuels"
-  logo_footer = "/images/logos/carbs_fuel.png"
-  logo_main = "/images/logos/carbs_fuel.png"
-  url = "https://www.carbsfuel.com/"
-  description = "Carbs Fuel makes sport nuttition with lots of carbs."
 
 # [[params.partners]]
 #   name = "strategio"
@@ -109,11 +95,32 @@ logo_header = "/images/logos/good_guys.jpg"
   url = "https://jtrainwellness.com"
 
 [[params.partners]]
-  name = "Chris King"
-  logo_footer = "/images/logos/chris_king_white.png"
-  logo_main = "/images/logos/chris_king_black.png"
-  url = "https://chrisking.com/"
-  description = "Legendary maker or high end bike components"
+  name = "Pinarello"
+  logo_footer = "/images/logos/pinarello_white.svg"
+  logo_main = "/images/logos/pinarello_black.svg"
+  url = "https://www.pinarello.com/"
+  description = "Pinarello bicycles"
+
+[[params.partners]]
+  name = "Electrolit"
+  logo_footer = "/images/logos/electrolit_white.svg"
+  logo_main = "/images/logos/electrolit_black.svg"
+  url = "https://electrolit.com/"
+  description = "Electrolit hydration"
+
+[[params.partners]]
+  name = "Kaex"
+  logo_footer = "/images/logos/kaex_white.webp"
+  logo_main = "/images/logos/kaex_black.png"
+  url = "https://www.kaex.com/"
+  description = "Kaex"
+
+[[params.partners]]
+  name = "Aescape"
+  logo_footer = "/images/logos/aescape_white.svg"
+  logo_main = "/images/logos/aescape_black.svg"
+  url = "https://www.aescape.com/"
+  description = "Aescape"
 
 [[params.partners]]
   name = "exceptional_villas"

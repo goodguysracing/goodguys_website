@@ -1,12 +1,15 @@
-<nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-end items-center center">
+<nav class="pv3 ph3 ph4-ns flex justify-between items-center" role="navigation">
+  <a href="{{ .Site.Home.RelPermalink }}" class="nav-home-logo flex-shrink-0" title="Home">
+    <img src="{{ printf "%s%s" .Site.BaseURL (.Site.Params.logo_nav | default .Site.Params.logo_header) }}" alt="{{ .Site.Title }}" class="nav-logo-compact">
+  </a>
+  <div class="nav-menu-wrap flex flex-l justify-end items-center">
     <div class="flex-l items-center">
       {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
         <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }} flex-l justify-end">
           {{ range .Site.Menus.main }}
           <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-            <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+            <a class="hover-white no-underline white-90" href="{{ .URL }}" {{ if hasPrefix .URL "http" }}target="_blank" rel="noopener noreferrer"{{ end }} title="{{ i18n "pageTitle" . }}">
               {{ .Name }}
             </a>
           </li>

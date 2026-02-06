@@ -9,7 +9,7 @@
   <div class="partner-logos">
     {{ range .Site.Params.partners }}
       <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener noreferrer">
-        <img src= "{{ printf "%s%s" $.Site.BaseURL .logo_footer }}" alt="{{ .name }}" class="partner-logo">
+        <img src= "{{ printf "%s%s" $.Site.BaseURL .logo_footer }}" alt="{{ .name }}" class="partner-logo partner-logo-{{ .name | urlize }}">
       </a>
     {{ end }}
   </div>

@@ -4,7 +4,6 @@ image: "/images/tyler_sullivan_roster.jpg"
 ---
 
 American \
-DOB: March 20th, 1996 \
 Favorite US Race: Bear Mountain Classic \
 Favorite Pro Race: Milan San Remo \
 Rider Type: Big Unit, All-Rounder \

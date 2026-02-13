@@ -251,8 +251,10 @@ img {
     }
   }
 
-  /* Pinarello, Electrolit, Q365: larger; JTrain: smaller */
-  .partner-logo-pinarello,
+  /* Pinarello: ~20% larger; Electrolit, Q365: larger; JTrain: smaller */
+  .partner-logo-pinarello {
+    max-width: 180px;
+  }
   .partner-logo-electrolit,
   .partner-logo-q365 {
     max-width: 150px;
@@ -261,7 +263,9 @@ img {
     max-width: 60px;
   }
   @media (max-width: 480px) {
-    .partner-logo-pinarello,
+    .partner-logo-pinarello {
+      max-width: 132px;
+    }
     .partner-logo-electrolit,
     .partner-logo-q365 {
       max-width: 110px;
@@ -312,6 +316,16 @@ img {
   /* Oakley, Continental, Vintus: slightly more room so they read better */
   .partner-gallery .partner-logo-box--large {
     padding: 12px;
+  }
+
+  /* Pinarello: ~20% larger on partners page */
+  .partner-gallery .partner-item--pinarello {
+    width: 264px;
+    height: 264px;
+  }
+  .partner-gallery .partner-item--pinarello .partner-logo-box--pinarello {
+    width: 240px;
+    height: 240px;
   }
 
   /* Logo forced to fit inside tile – no logo can overflow */

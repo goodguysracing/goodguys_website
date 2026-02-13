@@ -4,7 +4,6 @@ image: "/images/haakon_sheffield_roster.jpg"
 ---
 
 Norwegian - American \
-b. Sept 14, 1993 \
 Favorite US race: Green Mountain Stage Race \
 Favorite pro race to watch: de Ronde Van Vlaanderen (Tour of Flanders) \
 Type of rider: Rouleur, Domestique \

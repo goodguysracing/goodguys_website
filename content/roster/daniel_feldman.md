@@ -4,7 +4,6 @@ image: "/images/daniel_feldman_roster.jpg"
 ---
 
 Israeli \
-July 25th, 2002 \
 Favorite US Races: Capital Region Road Race, New Haven Grand Prix. \
 Favorite Pro Race: 2023 World Championships. \
 Rider Type: Climber, All-Rounder. \

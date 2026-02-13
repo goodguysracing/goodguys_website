@@ -4,7 +4,6 @@ image: "/images/james_hilyer_roster.jpg"
 ---
 
 American \
-DOB \
 Favourite US Race -  \
 Favorite Pro Race: \
 Rider Type: Skinny Boi \

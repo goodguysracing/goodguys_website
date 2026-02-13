@@ -26,6 +26,8 @@
     <loc>http://localhost:1313/goodguys_website/posts/</loc>
     <lastmod>2024-01-12T11:31:08+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/goodguys_website/roster/alec_ratzell/</loc>
+  </url><url>
     <loc>http://localhost:1313/goodguys_website/roster/billy_taylor/</loc>
   </url><url>
     <loc>http://localhost:1313/goodguys_website/categories/</loc>
@@ -35,6 +37,10 @@
     <loc>http://localhost:1313/goodguys_website/roster/old_riders/cormac_mcgeough/</loc>
   </url><url>
     <loc>http://localhost:1313/goodguys_website/roster/daniel_feldman/</loc>
+  </url><url>
+    <loc>http://localhost:1313/goodguys_website/roster/darren_parham/</loc>
+  </url><url>
+    <loc>http://localhost:1313/goodguys_website/roster/david_ramirez/</loc>
   </url><url>
     <loc>http://localhost:1313/goodguys_website/roster/duncan_clark/</loc>
   </url><url>
@@ -48,6 +54,8 @@
   </url><url>
     <loc>http://localhost:1313/goodguys_website/roster/james_hilyer/</loc>
   </url><url>
+    <loc>http://localhost:1313/goodguys_website/roster/nolan_church/</loc>
+  </url><url>
     <loc>http://localhost:1313/goodguys_website/roster/satchel_kim/</loc>
   </url><url>
     <loc>http://localhost:1313/goodguys_website/tags/</loc>
@@ -57,5 +65,7 @@
     <loc>http://localhost:1313/goodguys_website/roster/vincent_rhino/</loc>
   </url><url>
     <loc>http://localhost:1313/goodguys_website/roster/william_hacker/</loc>
+  </url><url>
+    <loc>http://localhost:1313/goodguys_website/roster/wolfgang_brandl/</loc>
   </url>
 </urlset>

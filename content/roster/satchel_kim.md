@@ -3,8 +3,7 @@ title: "Satchel Kim"
 image: "/images/satchel_kim_roster.png"
 ---
 
-American
-May 23, 2003
+American \
 Favourite US Race - Bucks County Classic
 Favorite Pro Race: Tour De France
 Rider Type: Shit weather specialist 

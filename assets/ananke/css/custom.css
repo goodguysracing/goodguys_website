@@ -1,3 +1,90 @@
+/* Schedule table */
+.schedule-table-wrap {
+  margin: 0 auto;
+  max-width: 90%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+@media (min-width: 641px) {
+  .schedule-table-wrap {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.schedule-table {
+  width: 100%;
+  min-width: 280px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+@media (min-width: 641px) {
+  .schedule-table {
+    table-layout: fixed;
+  }
+  .schedule-table th:nth-child(1),
+  .schedule-table td:nth-child(1) {
+    width: 55%;
+  }
+  .schedule-table th:nth-child(2),
+  .schedule-table td:nth-child(2) {
+    width: 30%;
+  }
+  .schedule-table th:nth-child(3),
+  .schedule-table td:nth-child(3) {
+    width: 15%;
+  }
+}
+.schedule-table th {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  padding: 12px 16px;
+  border-bottom: 2px solid #fff;
+  white-space: nowrap;
+}
+.schedule-table td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+}
+@media (min-width: 641px) {
+  .schedule-table th:nth-child(1),
+  .schedule-table td:nth-child(1) {
+    text-align: left;
+  }
+}
+.schedule-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.schedule-table tr:hover {
+  background-color: #ddd;
+}
+@media (max-width: 640px) {
+  .schedule-table-wrap {
+    max-width: 100%;
+  }
+  .schedule-table {
+    font-size: 0.9rem;
+  }
+  .schedule-table th,
+  .schedule-table td {
+    padding: 10px 8px;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  .schedule-table th:nth-child(1),
+  .schedule-table td:nth-child(1) {
+    min-width: 140px;
+  }
+  .schedule-table th:nth-child(2),
+  .schedule-table td:nth-child(2) {
+    min-width: 100px;
+  }
+  .schedule-table th:nth-child(3),
+  .schedule-table td:nth-child(3) {
+    min-width: 90px;
+  }
+}
+
 /* override the default styles here from */
 main.pb7 {
   padding-bottom: 4rem !important; /* Removes the padding */
@@ -267,7 +354,10 @@ img {
   .partner-logo-pinarello {
     max-width: 180px;
   }
-  .partner-logo-electrolit,
+  .partner-logo-electrolit {
+    max-width: 173px;
+    padding: 12px;
+  }
   .partner-logo-q365 {
     max-width: 150px;
   }
@@ -278,7 +368,9 @@ img {
     .partner-logo-pinarello {
       max-width: 132px;
     }
-    .partner-logo-electrolit,
+    .partner-logo-electrolit {
+      max-width: 127px;
+    }
     .partner-logo-q365 {
       max-width: 110px;
     }
@@ -338,6 +430,11 @@ img {
   .partner-gallery .partner-item--pinarello .partner-logo-box--pinarello {
     width: 240px;
     height: 240px;
+  }
+
+  /* Electrolit: ~15% bigger logo on partners page (less padding = more logo space) */
+  .partner-gallery .partner-logo-box--electrolit {
+    padding: 18px;
   }
 
   /* Logo forced to fit inside tile – no logo can overflow */
@@ -404,6 +501,9 @@ img {
     }
     .partner-gallery .partner-logo-box--large {
       padding: 10px;
+    }
+    .partner-gallery .partner-logo-box--electrolit {
+      padding: 12px;
     }
   
     .partner-logos {

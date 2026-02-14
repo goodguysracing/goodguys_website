@@ -4,56 +4,8 @@ date = 2024-01-12T11:33:37Z
 draft = false
 +++
 
-<style>
-  /* Style for all tables */
-  table {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90%;
-    width: auto;
-    border-collapse: collapse;
-    table-layout: auto;
-  }
-
-.measure-wide {
-    max-width: none;
-  }
-
-  /* Header styles */
-  th {
-    background-color: #000;
-    text-align: center;
-    color: #fff;
-    padding: 8px;
-    border-bottom: 2px solid #fff;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  /* Cell styles */
-  td {
-    padding: 8px;
-    border: 1px solid #ddd;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  /* Zebra striping for rows */
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-
-  /* Hover effect for rows */
-  tr:hover {
-    background-color: #ddd;
-  }
-
-  .race-a { font-weight: bold; }
-</style>
-
-<table>
+<div class="schedule-table-wrap">
+<table class="schedule-table">
   <thead>
     <tr>
       <th>Event</th>
@@ -86,3 +38,4 @@ draft = false
     <tr><td>Bucks County Classic</td><td>Doylestown, PA</td><td>09/20/26 – 09/21/26</td></tr>
   </tbody>
 </table>
+</div>

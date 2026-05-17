@@ -5,7 +5,7 @@
     <div class="roster-item">
       <a href="{{ .Permalink }}">
         <div class="roster-item__image">
-          <img src="{{ printf "%s%s" .Site.BaseURL (.Params.image | relURL) }}" alt="{{ .Title }}">
+          <img src="{{ .Params.image | strings.TrimPrefix "/" | absURL }}" alt="{{ .Title }}">
         </div>
         <h2>{{ .Title }}</h2>
       </a>

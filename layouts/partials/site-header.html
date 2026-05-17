@@ -5,7 +5,7 @@
       {{ partial "site-navigation.html" .}}
       <div class="tc-l pv4 pv6-l ph3 ph4-ns">
         <a href="{{ .Site.Home.RelPermalink }}" class="logo-container" title="Home">
-          <img src="{{ printf "%s%s" .Site.BaseURL (.Site.Params.logo_header) }}" alt="Logo" class="center-logo">
+          <img src="{{ .Site.Params.logo_header | strings.TrimPrefix "/" | absURL }}" alt="Logo" class="center-logo">
         </a>
         <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
           <!-- {{ .Title | default .Site.Title }} -->
@@ -23,7 +23,7 @@
     <div class="site-banner pb3-m {{ .Site.Params.background_color_class | default "bg-black" }}">
       {{ partial "site-navigation.html" . }}
       <a href="{{ .Site.Home.RelPermalink }}" class="logo-container" title="Home">
-        <img src="{{ printf "%s%s" .Site.BaseURL (.Site.Params.logo_header) }}" alt="Logo" class="center-logo">
+        <img src="{{ .Site.Params.logo_header | strings.TrimPrefix "/" | absURL }}" alt="Logo" class="center-logo">
       </a>
       <div class="tc-l pv3 ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">

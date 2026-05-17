@@ -1,6 +1,6 @@
 <nav class="pv3 ph3 ph4-ns flex justify-between items-center" role="navigation">
   <a href="{{ .Site.Home.RelPermalink }}" class="nav-home-logo flex-shrink-0" title="Home">
-    <img src="{{ printf "%s%s" .Site.BaseURL (.Site.Params.logo_nav | default .Site.Params.logo_header) }}" alt="{{ .Site.Title }}" class="nav-logo-compact">
+    <img src="{{ (.Site.Params.logo_nav | default .Site.Params.logo_header) | strings.TrimPrefix "/" | absURL }}" alt="{{ .Site.Title }}" class="nav-logo-compact">
   </a>
   <div class="nav-menu-wrap flex flex-l justify-end items-center">
     <div class="flex-l items-center">

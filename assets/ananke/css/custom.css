@@ -143,6 +143,40 @@ main.pb7 {
   justify-content: flex-end;
   margin-left: auto;
 }
+
+/* Mobile / narrow: stack nav under logo, wrap links instead of crowding one row */
+@media (max-width: 59.9375em) {
+  nav[role="navigation"] {
+    flex-wrap: wrap;
+    row-gap: 0.75rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .nav-home-logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-menu-wrap {
+    flex-basis: 100%;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .nav-menu-wrap .flex-l {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0.5rem;
+  }
+  .nav-menu-wrap ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    row-gap: 0.35rem;
+  }
+  .nav-menu-wrap ul li {
+    padding-right: 0.65rem;
+    padding-left: 0.65rem;
+  }
+}
 .nav-logo-compact {
   height: 96px;
   width: auto;
@@ -214,14 +248,18 @@ img {
   }
 }
 
-
 .roster-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusts the number of columns based on screen size */
-    padding-top: 100px;
+    padding-top: 2rem;
     gap: 20px;
     width: 100%; /* Gallery width */
     margin: auto; /* Center the gallery */
+  }
+  @media (min-width: 60em) {
+    .roster-gallery {
+      padding-top: 3rem;
+    }
   }
   .roster-item {
     text-align: center;
@@ -288,35 +326,6 @@ img {
     padding: 10px; /* Adjust padding as necessary */
   }
 
-  .partner-logos {
-    display: flex;
-    flex-wrap: wrap; /* Allow wrapping to the next row */
-    justify-content: center; /* Center the logos */
-    gap: 1rem; /* Add spacing between logos */
-  }
-  
-  .partner-logo {
-    max-width: 100px; /* Limit the size of the logos */
-    height: auto; /* Maintain aspect ratio */
-  }
-  
-  @media (max-width: 768px) {
-    .partner-logos {
-      justify-content: space-evenly; /* Distribute evenly for smaller screens */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .partner-logos {
-      flex-direction: row;
-      justify-content: center;
-      gap: 0.5rem; /* Reduce spacing for smaller screens */
-    }
-  
-    .partner-logo {
-      max-width: 80px; /* Scale down logos */
-    }
-  }
   .partner-logos {
     display: flex;
     flex-wrap: wrap; /* Allow wrapping to the next row */

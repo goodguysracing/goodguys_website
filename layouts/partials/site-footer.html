@@ -1,6 +1,6 @@
 <footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.Home.Permalink }}" >
+  <a class="f4 fw4 hover-white no-underline white-70 dib pv2 ph3" href="{{ .Site.Home.Permalink }}" >
     &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
   </a>
     <!-- <div>{{ partial "social-follow.html" . }}</div> -->
@@ -9,7 +9,7 @@
   <div class="partner-logos">
     {{ range .Site.Params.partners }}
       <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener noreferrer">
-        <img src= "{{ printf "%s%s" $.Site.BaseURL .logo_footer }}" alt="{{ .name }}" class="partner-logo partner-logo-{{ .name | urlize }}">
+        <img src="{{ .logo_footer | strings.TrimPrefix "/" | absURL }}" alt="{{ .name }}" class="partner-logo partner-logo-{{ .name | urlize }}">
       </a>
     {{ end }}
   </div>
